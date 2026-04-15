@@ -1,4 +1,4 @@
-﻿def procesar_nombres(lista_nombres):
+def procesar_nombres(lista_nombres):
     nombres_limpios = []
     
     for nombre in lista_nombres:
@@ -17,8 +17,3 @@ if __name__ == "__main__":
     resultado = procesar_nombres(datos_sucios)
     print(f"Resultado: {resultado}")
     # Salida esperada: ['Juan', 'María', 'Luis']
-
-if __name__ == "__main__":
-    nombres_sucios = ["  juan", "ALICIA", " ", "  rOberto  ", "", "   ", "cRisToBal ", "AgustinA"]
-    resultado = procesar_nombres(nombres_sucios)
-    print(f"Resultado final: {resultado}")
